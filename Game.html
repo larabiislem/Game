@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" href="Game.css">
+    </head>
+    <body>
+        <audio autoplay loop > <source src="01. Midnight Groove 139641.mp3" type="audio/mp3"></audio>
+     <div class="container">
+        <p class="Rock">Rock</p>
+        <p class="Payper">Paper</p>
+        <p class="Scissor">Scissors</p>
+
+<div class="buttons">
+    <button onclick="playGame('Rock');" class="play-Rock"> <img src="Rock.png" class="img1"> </button>
+  <button onclick=" playGame('Payper');" class="play-Rock" ><img src="Payper.png" class="img1"></button>
+  <button onclick="playGame('scissor')" class="play-Rock"> <img src="scissor.png" class="img1"></button> 
+
+</div>
+
+
+<div class="affichage"></div>
+<p class="score"></p>
+<button class="R-score">Reset Score</button>
+<button class="A-play">Auto play</button>
+<div class="Ask"></div>
+     </div>        
+        <script src="Game.js"></script>
+
+    </body>
+</html>
