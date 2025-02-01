@@ -2,7 +2,7 @@
 let score=JSON.parse(localStorage.getItem('score'));
     
     if (!score) {
-        console.log('zbii');
+       
         score ={Win:0,lose:0,tie:0};}
         
 document.querySelector('.score').innerText=displayscore(score);       
